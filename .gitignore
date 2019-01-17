@@ -1,0 +1,97 @@
+# node modules
+/node_modules
+node_modules
+
+#bower_components
+bower_components
+/client/bower_components
+/client/components
+/components
+client/components
+
+
+# minio key
+/config/minio/minioKeys.js
+config/minio/minioKeys.js
+
+# config/keys.js file that sometime has AWS keys
+prod.js
+
+# VERY IMPORTANT - The below config/keys.js file is only for this AP-Ports project that has AWS keys
+./Phase-2/server/config/prod.js
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+*/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+.env.override
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore docs files
+_gh_pages
+.ruby-version
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.~lock*
+.~lock*
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# grunt-html-validation
+validation-status.json
+validation-report.json
+
+# Folders to ignore
+node_modules
+Project-Note-PAUL
+.vscode
+
+
+
+# Ignore all logfiles and tempfiles.
+!/log/.keep
+/tmp
+/.gems
